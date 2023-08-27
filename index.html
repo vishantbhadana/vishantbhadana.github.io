@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vishant Bhadana personal</title>
+    <link rel="stylesheet" href="vishant.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Every start has an end</p>
+            <h1>Hi, I'm <span>Vishant Bhadana</span>
+                <br><span id="element"></span></h1>
+        </div>
+    </div>
+</div>
+<!-- -----------about---------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="0009.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I'm Vishant Bhadana, an undergraduate student pursuing Material Science Engineering at IIT Kanpur. Currently in my 3rd year, I am highly dedicated and hardworking in my field of study. My passion lies in coding, and I strive to continuously improve my skills by learning and expanding my knowledge every day.<br>
+
+                    
+                    With a keen interest in programming, I am committed to honing my coding abilities to excel in various programming languages and technologies. I embrace challenges and view them as opportunities for growth. Through consistent practice and hands-on projects, I aim to enhance my problem-solving capabilities and develop innovative solutions.<br>
+                    
+                    As a student at IIT Kanpur, I have been exposed to a rigorous academic environment that has nurtured my analytical thinking, attention to detail, and teamwork skills. I actively participate in coding competitions and collaborative projects, which have further sharpened my abilities to thrive in a dynamic and collaborative work environment.<br>
+                    
+                    In addition to my academic pursuits, I am an enthusiastic learner who seeks out new challenges and opportunities to expand my horizons. I am open to exploring different domains within the field of material science engineering and leveraging my knowledge to contribute to impactful research and development projects.<br>
+                    
+                    Driven by a thirst for knowledge and a passion for excellence, I am committed to leveraging my skills and education to make a positive impact in the field of material science engineering. I am eager to embark on new endeavors, collaborate with like-minded individuals, and continuously push the boundaries of my capabilities.<br>
+                    
+                    Feel free to reach out to me if you have any inquiries, collaboration proposals, or simply want to connect. I look forward to exploring new possibilities and making meaningful contributions in my journey as a material science engineering student and coding enthusiast.<br>
+                    
+                    Thank you for visiting my portfolio website, and I hope you get a glimpse of my dedication, hard work, and passion through the projects and experiences I share here.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('por')">Position of Responsibility</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web interfaces</li>
+                        <li><span>Web Development</span><br>Web app Development</li>
+                        <li><span>Technical</span><br>C, C++, HTML, CSS, Java Script, python</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="por">
+                    <ul>
+                        <li><span>2022 - 2023</span><br>Adventure Sports Club Secy, IIT Kanpur</li>
+                        <li><span>2022 - 2023</span><br>Sports Secy (GNS IIT Kanpur)</li>
+                        <li><span>2022 - 2023</span><br>Kabaddi captain Hall 12 team(Inferno)</li>
+                        <li><span>2022 - 2023</span><br>Kabaddi player Udgosh (IIT Kanpur Team)</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2021 - 2025</span><br>Indian Institute of Technology Kanpur</li>
+                        <li><span>2020</span><br>Allen Career Institute Kota</li>
+                        <li><span>2009 - 2020</span><br>Nation Public School</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ---------services---------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Providing professional web design services for your online presence and business needs.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2>UI/UX Design</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nulla nibh, tincidunt sit amet sapien quis.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fab fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nulla nibh, tincidunt sit amet sapien quis.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ----------portfolio------------ -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Game of Thrones</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="wolf.jpg">
+                <div class="layer">
+                    <h3>The Wolf</h3>
+                    <p>We are Winterfell</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="swordholder.jpg">
+                <div class="layer">
+                    <h3>Jon Snow</h3>
+                    <p>King in the North</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="sword.jpg">
+                <div class="layer">
+                    <h3>The Sword</h3>
+                    <p>Valyrian Steel(no doubt)</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- ----------contact------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i> bhadanavishant0009@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i> 9720159067</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100075157452457"><i class="fab fa-facebook"></i></a>
+                    <a href="https://twitter.com/VishantBhadana"><i class="fab fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/_vishantbhadana_/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/vishant-bhadana-8baba0247/"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="CV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright ©<a href="https://www.linkedin.com/in/vishant-bhadana-8baba0247/">Vishant Bhadana.</a></p>
+    </div>
+</div>
+
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Material Science Engineer'],
+            typeSpeed: 50,
+        });
+    </script>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbztSO6SuQRSaRgdSJ5XgSIve7Fb6cjTpxl_0VW9zxxJ73Gq-9gW-YIgfqhH5twNwIpl/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
